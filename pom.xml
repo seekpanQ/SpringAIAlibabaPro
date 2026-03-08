@@ -8,6 +8,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>SpringAIAlibabaQuickStart</module>
+        <module>SpringAIAlibabaOllama</module>
     </modules>
 
     <properties>

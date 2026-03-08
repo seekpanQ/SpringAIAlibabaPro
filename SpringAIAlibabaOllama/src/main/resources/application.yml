@@ -1,0 +1,18 @@
+server:
+  port: 9999
+  servlet:
+    encoding: #大模型对话中文乱码处理
+      charset: UTF-8
+      enabled: true
+      force: true
+spring:
+  application:
+    name: springaialibabaollama # 微服务名称
+  ai:
+    dashscope: # 大模型三件套指定
+      api-key:
+    ollama:
+      base-url: http://localhost:11434 # 调用地址，不再是远程的大模型提供的调用地址了，而是调用本地的ollama
+      chat:
+        options:
+          model: deepseek-r1:1.5b
