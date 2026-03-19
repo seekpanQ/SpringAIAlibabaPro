@@ -10,6 +10,7 @@
         <module>SpringAIAlibabaQuickStart</module>
         <module>SpringAIAlibabaOllama</module>
         <module>SpringAIAlibabaChatClient</module>
+        <module>SpringAIAlibabaPrompt</module>
     </modules>
 
     <properties>
